@@ -1,0 +1,92 @@
+Lokalne premenne 
+void pascal dist(int a, int b) - kopirovanie hodnot do lokalnych premennych v opačnom smere (b,a)
+
+
+
+	void vymen(int *a, int *b) 		"3 lokalne premenne: 2 smerniky 1 short int'
+	{
+		short int aux;
+		
+		aux= *b;
+		*b=*a;
+		*a=aux;
+	}
+
+	void main(void)
+	{
+		int a,b;
+		
+		vymen(&a,&b);
+	}
+
+
+
+
+#typedef sint short int
+
+	void mima(sint a, sint b, sint *l, sint *u)
+	{
+		if (a<b)
+		{
+			*l=a;
+			*u=b;
+		}
+		else
+		{
+			*l=b;
+			*u=a;
+		}
+	}
+
+	void main (void)
+	{
+		sint a,b,c,d;
+		
+		mima(a,b,&c,&d);
+	}
+
+
+(Zdrojak.c)->		
+Preprocesor->		Sa venuje riadkam zacinajuce # a idu dosledky
+Kompilator->		(Preklad hlicovych slov do instrukcii procesoru (kazda funkcia sa kompilyje osve)
+Linker->		Pospaja funkcie do spustistitelnoho suboru a pripaja ich tym ze spocita velkosti skokov ktore treba pred vykonanim programu spravit pri volanii funkcie.
+Zdrojovy cod
+
+
+#define N 10	(symbolocka konstanta)
+	for (i=0;i<N;i++) (procesor nahradi namies "n" "20")
+ 
+
+
+
+#typedef OK 0
+#typedef FAIL 1
+	if (vasfunk==OK)...
+
+
+
+
+	typedef struct{
+		int b;
+		int c;
+		.
+		.
+		.
+		char x;
+		.
+		.
+		.
+		double Fxx;
+		}vvs;
+
+	void funkcie(vvs *a)
+	{ 
+		(*a).x
+		  a->x (syntakticky cukor)
+	
+
+
+
+
+
+
