@@ -1,0 +1,4 @@
+reverencie	& (adresa, hodnota nezaumame)
+dereverencie 	* (hodnota, adreda nezaumame)
+Little Endian
+Big Endian
